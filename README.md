@@ -19,7 +19,7 @@ Smallsh is an implementation of a shell in C. A subset of features of well-known
 * Two implementations of smallsh were created. The "main_array.c" implementation stores the PIDs of non-completed background processes in an array. Each time before access to the command line is returned to the user, the status of these processes is checked using "waitpid(...NOHANG...)."
 * The "main_signal.c" uses a signal handler to immediately wait() for child processes that terminate, in contrast to the first implementation of periodically checking a list of started background processes.
 
-![alt text](img/fairview.gif)
+![alt text](img/smallsh.gif)
 
 ## Technologies
 This project is created with:
