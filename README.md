@@ -27,4 +27,4 @@ This project is created with:
 * Unix process API
 * Signal handling
 * I/O redirection
-	
+* Bash
