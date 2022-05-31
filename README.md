@@ -1,0 +1,2 @@
+# smallsh
+Shell in C.
